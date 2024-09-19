@@ -1,7 +1,7 @@
 
 import './App.css'
 import { MyFirstComponent } from './components/MyFirstComponent'
-
+import { NewComponent } from './components/NewComponent'
 function App() {
 
 
@@ -10,6 +10,9 @@ function App() {
       
         <h1>Fundamentos de React</h1>
         <MyFirstComponent />
+        <NewComponent />
+     
+      
     </>
   )
 }
