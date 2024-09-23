@@ -17,7 +17,7 @@ const student = {
   return (
     <>
     <div>MyFirstComponent</div>
-    <div className="container bg-success-subtle">
+    <div className="container">
         <h1>Temas De React</h1>
         <ul>
             <li>Componentes</li>
@@ -28,7 +28,7 @@ const student = {
         </ul>
         </div>
 
-        <div className="container bg-body-secondary py-2 px-2">
+        <div className="container">
         <h1>Datos del Docente</h1>
         <p>
           Nombre: <strong>{ name }</strong>
@@ -40,7 +40,7 @@ const student = {
         </div>
 
 
-        <div className="container bg-dark-subtle py-2 px-2">
+        <div className="container">
         <h1>Datos del Estudiante</h1>
         <p>Nombre:{student.name}</p>
         <p>Apellido:{student.last_name}</p>
@@ -48,7 +48,7 @@ const student = {
         <p>Linkedin<a href= {student.Linkedin_profile}> {student.Linkedin_profile}</a></p>
         </div>
 
-        <div className="container pt-2 mt-2">
+        <div className="container ">
           <h1>Objeto Completo</h1>
           <pre>{JSON.stringify(student)}</pre>
         </div>
